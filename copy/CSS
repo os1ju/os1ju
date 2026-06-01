@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 50px;
+    border-bottom:1px solid #777;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:60px;
+}
+
+.logo span{
+    font-size:48px;
+    font-weight:800;
+}
+
+nav{
+    display:flex;
+    gap:40px;
+}
+
+nav a{
+    color:#888;
+    text-decoration:none;
+    font-size:18px;
+    border-bottom:1px solid #666;
+}
+
+nav a:hover{
+    color:white;
+}
+
+/* MAIN */
+
+.cabinet{
+    display:grid;
+    grid-template-columns:420px 1fr;
+    gap:60px;
+    padding:70px 50px;
+}
+
+/* PROFILE */
+
+.user-info{
+    display:flex;
+    gap:25px;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.avatar{
+    width:170px;
+    height:170px;
+    background:#d9d9d9;
+    border-radius:50%;
+}
+
+.user-info h3{
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:10px;
+}
+
+.user-info p{
+    color:#999;
+    margin-bottom:10px;
+}
+
+.user-info a{
+    color:#777;
+}
+
+.menu{
+    border:1px solid #555;
+    padding:40px;
+    min-height:360px;
+
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#999;
+    font-size:20px;
+}
+
+.menu a:hover{
+    color:white;
+}
+
+.logout{
+    margin-top:auto;
+}
+
+/* CONTENT */
+
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.section-header h2{
+    font-size:52px;
+    font-weight:800;
+}
+
+.section-header a{
+    color:#888;
+    font-size:18px;
+}
+
+.order-card{
+    border:1px solid #555;
+    display:flex;
+}
+
+.order-card img{
+    width:420px;
+    height:170px;
+    object-fit:cover;
+}
+
+.order-info{
+    padding:20px;
+}
+
+.order-info h3{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.order-info p{
+    color:#777;
+    margin-bottom:10px;
+}
+
+/* BOTTOM GRID */
+
+.bottom-grid{
+    margin-top:20px;
+
+    display:grid;
+    grid-template-columns:340px 1fr;
+    gap:40px;
+}
+
+.booking h2,
+.favorites h2{
+    font-size:64px;
+    font-weight:800;
+}
+
+.booking-card{
+    border:1px solid #555;
+    padding:25px;
+    margin-top:15px;
+}
+
+.booking-card p{
+    color:#888;
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+button{
+    background:#c30000;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:22px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e00000;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:5px;
+}
+
+.gallery img,
+.more{
+    width:100%;
+    height:140px;
+    object-fit:cover;
+}
+
+.more{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#333;
+    font-size:40px;
+    font-weight:700;
+}
+
+/* FOOTER */
+
+footer{
+    border-top:1px solid #555;
+    margin-top:60px;
+    padding:40px 50px;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+footer h2{
+    font-size:60px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+footer p{
+    color:#888;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.vk{
+    text-align:center;
+}
+
+.vk img{
+    width:180px;
+  }
