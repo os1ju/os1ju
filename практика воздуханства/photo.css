@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 50px;
+    border-bottom:1px solid #777;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:60px;
+}
+
+.logo span{
+    font-size:48px;
+    font-weight:800;
+}
+
+nav{
+    display:flex;
+    gap:40px;
+}
+
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:18px;
+    border-bottom:1px solid #666;
+}
+
+nav a:hover{
+    color:rgb(88, 21, 21);
+}
+
+.body{
+    background-color: black;
+    color: white;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+}
+
+.img{
+
+    width: 898px;
+    height: 375px;
+    border: 2px solid white;
+}
+
+.title{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    font-size: 44px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.small_title{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.text{
+    color: white;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+.btn {
+    margin-left: 50px;
+    background-color: #960303;
+    width: 200px;
+    height: 50px;
+    border:none;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #6d1818;
+    width: 220px;
+
+    transition: 0.3s ease;
+}
+
+
+
+.cost{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+/*слайдер автоматичесикй*/
+.slider {
+  overflow-x: hidden;
+}
+
+.slider-track {
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  margin-right: 40px;
+  /* Для избежания сжатия слайдов */
+  flex-shrink: 0;
+}
+
+.slide img {
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/*тут начинается подвал*/
+
+footer{
+    border-top:1px solid #555;
+    margin-top:60px;
+    padding:40px 50px;
+    display:flex;
+    justify-content:space-between;
+}
+
+footer h2{
+    font-size:34px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+footer p{
+    color:#888;
+    font: size 24px;
+    margin-bottom:10px;
+}
+
+.vk{
+    text-align:center;
+}
+
+.vk img{
+    width:130px;
+  }
