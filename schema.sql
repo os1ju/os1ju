@@ -14,7 +14,7 @@ CREATE TABLE Users (
     name VARCHAR(100) NOT NULL,
     phone_number VARCHAR(20),
     email VARCHAR(50),
-    password VARCHAR(255) NOT NULL, -- Изменено с VARCHAR(15) на VARCHAR(255) для хеша
+    password VARCHAR(255) NOT NULL, 
     created_at DATE,
     role_id INT NOT NULL,
     last_login TIMESTAMP NULL,
